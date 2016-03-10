@@ -6,15 +6,25 @@
 
 [![NPM](https://nodei.co/npm/sandvich.svg?style=flat)](https://npmjs.org/package/sandvich)
 
+## Warning
+
+    I'm noob JS programmer
+    I think, this code is feeder
+
 ## Installation
 
     npm install sandvich
 
 ## Usage Example
 
-## Testing
-
-    npm test
+```javascript
+require("../lib/sandvich")("STEAM_WEB_API_KEY", function(err, sandvich) {
+  var params = { steamids: "76561198049739081" }; //It's me!! aoisensi
+  sandvich.ISteamUser.GetPlayerSummaries(params, function(e, result) {
+    console.log(JSON.stringify(result, null, '  '));
+  });
+});
+```
 
 ## License
 

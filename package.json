@@ -1,10 +1,9 @@
 {
   "name": "sandvich",
-  "version": "1.0.0",
-  "description": "Awesome module",
+  "version": "0.1.0",
+  "description": "Steam Web API wrapper from Steam Web API",
   "keywords": [
-    "keyword1",
-    "keyword2"
+    "steam"
   ],
   "homepage": "https://github.com/aoisensi/sandvich",
   "bugs": "https://github.com/aoisensi/sandvich/issues",
@@ -19,9 +18,9 @@
     "url": "https://github.com/aoisensi/sandvich.git"
   },
   "scripts": {
-    "test": "gulp test"
   },
   "dependencies": {
+    "request": "^2.69.0"
   },
   "devDependencies": {
     "chai": "^1.9.1",
