@@ -8,7 +8,7 @@
 
 ## Warning
 
-    I'm noob JS programmer
+    I'm a noob JS programmer
     I think, this code is feeder
 
 ## Installation
